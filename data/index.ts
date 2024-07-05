@@ -49,7 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title:
+      "Passion for development coupled with the quench to explore modern tools and technologies",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +73,28 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Estate Elite A Real Estate Property Selling web app",
+    des: "A real estate platform designed to streamline the buying, selling, and managing of properties.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "estateelite-fdfad.web.app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "JourneyJunction - Central Asia travel App",
+    des: "This Website is to add spots from central asia and also you can manage them. You can also browse spots by countries and view its detail.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://journey-junction-ab45b.web.app/",
   },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
+  
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "UnityPlates - Food Sharing Website",
+    des: " a platform dedicated to sharing food and reducing food waste! UnityPlates allows users to donate, request, update, and delete food listings, fostering a community-driven approach to addressing food scarcity and promoting sustainability.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://unityplate-3fee4.web.app/",
   },
 ];
 
@@ -170,48 +164,53 @@ export const companies = [
   },
 ];
 
+
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Dream Weaver",
+    desc: "Crafting digital dreams through intuitive web interfaces, using creativity to enrich user experiences.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Pathfinder in Mobile Innovation",
+    desc: "Pioneering mobile app development on diverse platforms, shaping the future of digital interaction.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Architect of Digital Journeys",
+    desc: "Guiding clients through transformative web app solutions, from inception to production",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Craftsman of Immersive Experiences",
+    desc: "Creating captivating solutions that blend creativity with cutting-edge technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
 ];
 
+
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Salauddin-Ahmad",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/MdSalauddinVaii",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/md-salauddin-vai/",
   },
 ];
