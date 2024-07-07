@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import TextareaAutosize from 'react-textarea-autosize';
-// import {socialNetworks} from './utils';
+
 
 export const Contact = () => {
   const [val, setVal] = useState('');
