@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {withSentryConfig} from '@sentry/nextjs';
 const nextConfig = {};
 export default withSentryConfig (nextConfig, {
@@ -127,3 +128,12 @@ export default withSentryConfig (nextConfig, {
 // // https://vercel.com/docs/cron-jobs
 // automaticVercelMonitors: true,
 // });
+=======
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  // Add any other configurations you need here
+};
+
+export default nextConfig;
+>>>>>>> 4466da506ce2384598a98ce369773a5898bf92ad
