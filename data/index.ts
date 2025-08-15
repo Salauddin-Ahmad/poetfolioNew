@@ -49,12 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-<<<<<<< HEAD
     title: "Have plans to be an elite Devoloper by leveraging all the modern tools and technologies",
-=======
-    title:
-      "Passion for development coupled with the quench to explore modern tools and technologies",
->>>>>>> 4466da506ce2384598a98ce369773a5898bf92ad
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",

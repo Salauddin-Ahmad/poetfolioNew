@@ -7,15 +7,10 @@ import MagicButton from "./MagicButton";
 
 const Hero = () => {
   return (
-<<<<<<< HEAD
     <div className="pb-20 pt-36">
-=======
-    <div className="">
->>>>>>> 4466da506ce2384598a98ce369773a5898bf92ad
       <div>
         <Spotlight
-          className="-top-40 -left-10 md:left-32 md:-top-20
-        h-screen "
+          className="-top-40 -left-10 md:left-32 md:-top-20 h-screen "
           fill="white"
         />
         <Spotlight
@@ -54,13 +49,7 @@ const Hero = () => {
               Bangladesh.
             </p>
             <div className="text-center">
-<<<<<<< HEAD
-
               <div className=" flex-1-row md:flex  justify-center gap-4">
-
-=======
-              <div className=" flex-1-row md:flex  justify-center gap-4">
->>>>>>> 4466da506ce2384598a98ce369773a5898bf92ad
                 <a href="#about">
                   <MagicButton
                     title="show my work"

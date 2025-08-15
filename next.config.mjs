@@ -1,15 +1,61 @@
-<<<<<<< HEAD
-import {withSentryConfig} from '@sentry/nextjs';
-const nextConfig = {};
-export default withSentryConfig (nextConfig, {
+import { withSentryConfig } from '@sentry/nextjs';
+
+const nextConfig = {
+  reactStrictMode: true,
+  experimental: {
+    instrumentationHook: true,
+  },
+};
+
+const sentryWebpackPluginOptions = {
   org: "salauddins-organiztion",
   project: "javascript-nextjs",
-
-  // Pass the auth token
   authToken: process.env.SENTRY_AUTH_TOKEN,
-  // Upload a larger set of source maps for prettier stack traces (increases build time)
   widenClientFileUpload: true,
-});
+};
+
+export default withSentryConfig(nextConfig, sentryWebpackPluginOptions);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import {withSentryConfig} from '@sentry/nextjs';
+// const nextConfig = {};
+// export default withSentryConfig (nextConfig, {
+//   org: "salauddins-organiztion",
+//   project: "javascript-nextjs",
+
+//   // Pass the auth token
+//   authToken: process.env.SENTRY_AUTH_TOKEN,
+//   // Upload a larger set of source maps for prettier stack traces (increases build time)
+//   widenClientFileUpload: true,
+// });
+
+
 
 
 
@@ -128,12 +174,3 @@ export default withSentryConfig (nextConfig, {
 // // https://vercel.com/docs/cron-jobs
 // automaticVercelMonitors: true,
 // });
-=======
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  // Add any other configurations you need here
-};
-
-export default nextConfig;
->>>>>>> 4466da506ce2384598a98ce369773a5898bf92ad
